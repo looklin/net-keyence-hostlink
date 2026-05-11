@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>Keyence.HostLink.Tests.Net8.WinForms</AssemblyName>
+    <RootNamespace>Keyence.HostLink.Tests.Net8.WinForms</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Keyence.HostLink\Keyence.HostLink.csproj" />
+    <ProjectReference Include="..\..\src\Keyence.HostLink.Net6\Keyence.HostLink.Net6.csproj" />
+  </ItemGroup>
+
+</Project>

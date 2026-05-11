@@ -1,0 +1,15 @@
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\bin\Release\net472\Keyence.HostLink.Tests.WinForms.exe.config
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\bin\Release\net472\Keyence.HostLink.Tests.WinForms.exe
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\bin\Release\net472\Keyence.HostLink.Tests.WinForms.pdb
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\bin\Release\net472\System.Runtime.CompilerServices.Unsafe.dll
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\bin\Release\net472\System.Threading.Tasks.Extensions.dll
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\bin\Release\net472\Keyence.HostLink.dll
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\bin\Release\net472\Keyence.HostLink.pdb
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\obj\Release\net472\Keyence.HostLink.Tests.WinForms.csproj.AssemblyReference.cache
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\obj\Release\net472\Keyence.HostLink.Tests.WinForms.GeneratedMSBuildEditorConfig.editorconfig
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\obj\Release\net472\Keyence.HostLink.Tests.WinForms.AssemblyInfoInputs.cache
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\obj\Release\net472\Keyence.HostLink.Tests.WinForms.AssemblyInfo.cs
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\obj\Release\net472\Keyence.HostLink.Tests.WinForms.csproj.CoreCompileInputs.cache
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\obj\Release\net472\Keyence..53A8EFEF.Up2Date
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\obj\Release\net472\Keyence.HostLink.Tests.WinForms.exe
+E:\工具\Keyence\net-keyence-hostlink\tests\Keyence.HostLink.Tests.WinForms\obj\Release\net472\Keyence.HostLink.Tests.WinForms.pdb

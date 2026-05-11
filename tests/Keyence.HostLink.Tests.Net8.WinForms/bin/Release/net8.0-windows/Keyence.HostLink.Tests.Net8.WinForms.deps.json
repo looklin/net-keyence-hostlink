@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Keyence.HostLink.Tests.Net8.WinForms/1.0.0": {
+        "dependencies": {
+          "Keyence.HostLink": "1.0.0",
+          "Keyence.HostLink.Net6": "1.0.0"
+        },
+        "runtime": {
+          "Keyence.HostLink.Tests.Net8.WinForms.dll": {}
+        }
+      },
+      "Keyence.HostLink/1.0.0": {
+        "runtime": {
+          "Keyence.HostLink.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Keyence.HostLink.Net6/1.0.0": {
+        "dependencies": {
+          "Keyence.HostLink": "1.0.0"
+        },
+        "runtime": {
+          "Keyence.HostLink.Net6.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Keyence.HostLink.Tests.Net8.WinForms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Keyence.HostLink/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Keyence.HostLink.Net6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

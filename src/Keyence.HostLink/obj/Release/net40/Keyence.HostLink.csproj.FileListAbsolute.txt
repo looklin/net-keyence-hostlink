@@ -1,0 +1,5 @@
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink\obj\Release\net40\Keyence.HostLink.csproj.AssemblyReference.cache
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink\obj\Release\net40\Keyence.HostLink.GeneratedMSBuildEditorConfig.editorconfig
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink\obj\Release\net40\Keyence.HostLink.AssemblyInfoInputs.cache
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink\obj\Release\net40\Keyence.HostLink.AssemblyInfo.cs
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink\obj\Release\net40\Keyence.HostLink.csproj.CoreCompileInputs.cache

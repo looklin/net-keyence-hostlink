@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Keyence.HostLink</id>
+    <version>1.1.0</version>
+    <authors>nan.lin</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>icon.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/looklin/net-keyence-hostlink</projectUrl>
+    <description>High-performance C# library for Keyence PLC Hostlink protocol communication. Supports .NET Framework 4.6.1+ with progressive enhancement for .NET 6+.</description>
+    <releaseNotes>Enhanced version with latest features and optimizations for .NET 6+.</releaseNotes>
+    <tags>keyence plc hostlink industrial automation tcp serial</tags>
+    <repository type="git" url="https://github.com/looklin/net-keyence-hostlink" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0" />
+      <group targetFramework="net8.0" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink\bin\Release\net461\Keyence.HostLink.dll" target="lib\net461\Keyence.HostLink.dll" />
+    <file src="E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink\bin\Release\net6.0\Keyence.HostLink.dll" target="lib\net6.0\Keyence.HostLink.dll" />
+    <file src="E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink\bin\Release\net8.0\Keyence.HostLink.dll" target="lib\net8.0\Keyence.HostLink.dll" />
+    <file src="E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink\bin\Release\netstandard2.0\Keyence.HostLink.dll" target="lib\netstandard2.0\Keyence.HostLink.dll" />
+    <file src="E:\工具\Keyence\net-keyence-hostlink\README.md" target="\README.md" />
+    <file src="E:\工具\Keyence\net-keyence-hostlink\docs\icon.png" target="\icon.png" />
+  </files>
+</package>

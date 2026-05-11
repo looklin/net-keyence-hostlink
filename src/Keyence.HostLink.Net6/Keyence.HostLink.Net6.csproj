@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+    <AssemblyName>Keyence.HostLink.Net6</AssemblyName>
+    <RootNamespace>Keyence.HostLink.Net6</RootNamespace>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Keyence.HostLink.Net6</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>nan.lin</Authors>
+    <Company>LT</Company>
+    <Description>.NET 6+ enhanced version of Keyence.HostLink. Uses ArrayPool, Span, ValueTask and other modern APIs for maximum performance. Requires .NET 6.0 or later.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/looklin/net-keyence-hostlink</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/looklin/net-keyence-hostlink</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>keyence;plc;hostlink;industrial;automation;performance;span;arraypool</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <NoWarn>$(NoWarn);CS8618</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Keyence.HostLink\Keyence.HostLink.csproj" />
+  </ItemGroup>
+
+</Project>

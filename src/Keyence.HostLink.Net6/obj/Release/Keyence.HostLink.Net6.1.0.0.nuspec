@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Keyence.HostLink.Net6</id>
+    <version>1.0.0</version>
+    <authors>net-keyence-hostlink</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/net-keyence-hostlink</projectUrl>
+    <description>.NET 6+ enhanced version of Keyence.HostLink. Uses ArrayPool, Span, ValueTask and other modern APIs for maximum performance. Requires .NET 6.0 or later.</description>
+    <tags>keyence plc hostlink industrial automation performance span arraypool</tags>
+    <repository type="git" url="https://github.com/net-keyence-hostlink" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Keyence.HostLink" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="Keyence.HostLink" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Net6\bin\Release\net6.0\Keyence.HostLink.Net6.dll" target="lib\net6.0\Keyence.HostLink.Net6.dll" />
+    <file src="E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Net6\bin\Release\net8.0\Keyence.HostLink.Net6.dll" target="lib\net8.0\Keyence.HostLink.Net6.dll" />
+    <file src="E:\工具\Keyence\net-keyence-hostlink\README.md" target="\README.md" />
+  </files>
+</package>

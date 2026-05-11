@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;netstandard2.0;net6.0;net8.0</TargetFrameworks>
+    <AssemblyName>Keyence.HostLink</AssemblyName>
+    <RootNamespace>Keyence.HostLink</RootNamespace>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>Keyence.HostLink</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>nan.lin</Authors>
+    <Company>LT</Company>
+    <Description>High-performance C# library for Keyence PLC Hostlink protocol communication. Supports .NET Framework 4.6.1+ with progressive enhancement for .NET 6+.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/looklin/net-keyence-hostlink</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/looklin/net-keyence-hostlink</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>keyence;plc;hostlink;industrial;automation;tcp;serial</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <NoWarn>$(NoWarn);CS8618;CS8603;CS8604;CS8625;CS8622</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\docs\icon.png" Pack="true" PackagePath="\" Condition="Exists('..\..\docs\icon.png')" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net461'">
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+  </ItemGroup>
+
+</Project>

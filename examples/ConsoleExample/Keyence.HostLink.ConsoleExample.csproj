@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Keyence.HostLink.ConsoleExample</AssemblyName>
+    <RootNamespace>Keyence.HostLink.ConsoleExample</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Keyence.HostLink\Keyence.HostLink.csproj" />
+  </ItemGroup>
+
+</Project>

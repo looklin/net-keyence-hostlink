@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\Keyence.HostLink\\Keyence.HostLink.csproj|e:\\\u5DE5\u5177\\keyence\\net-keyence-hostlink\\src\\keyence.hostlink\\hostlinkclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\Keyence.HostLink\\Keyence.HostLink.csproj|solutionrelative:src\\keyence.hostlink\\hostlinkclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F67890-1234-5678-EF01-567890123456}|tests\\Keyence.HostLink.Tests.Net8.WinForms\\Keyence.HostLink.Tests.Net8.WinForms.csproj|E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\tests\\keyence.hostlink.tests.net8.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E5F67890-1234-5678-EF01-567890123456}|tests\\Keyence.HostLink.Tests.Net8.WinForms\\Keyence.HostLink.Tests.Net8.WinForms.csproj|solutionrelative:tests\\keyence.hostlink.tests.net8.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F67890-1234-5678-EF01-567890123456}|tests\\Keyence.HostLink.Tests.Net8.WinForms\\Keyence.HostLink.Tests.Net8.WinForms.csproj|e:\\\u5DE5\u5177\\keyence\\net-keyence-hostlink\\tests\\keyence.hostlink.tests.net8.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5F67890-1234-5678-EF01-567890123456}|tests\\Keyence.HostLink.Tests.Net8.WinForms\\Keyence.HostLink.Tests.Net8.WinForms.csproj|solutionrelative:tests\\keyence.hostlink.tests.net8.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E5F678-9012-3456-DEF0-456789012345}|tests\\Keyence.HostLink.Tests.WinForms\\Keyence.HostLink.Tests.WinForms.csproj|E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\tests\\keyence.hostlink.tests.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4E5F678-9012-3456-DEF0-456789012345}|tests\\Keyence.HostLink.Tests.WinForms\\Keyence.HostLink.Tests.WinForms.csproj|solutionrelative:tests\\keyence.hostlink.tests.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E5F678-9012-3456-DEF0-456789012345}|tests\\Keyence.HostLink.Tests.WinForms\\Keyence.HostLink.Tests.WinForms.csproj|e:\\\u5DE5\u5177\\keyence\\net-keyence-hostlink\\tests\\keyence.hostlink.tests.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E5F678-9012-3456-DEF0-456789012345}|tests\\Keyence.HostLink.Tests.WinForms\\Keyence.HostLink.Tests.WinForms.csproj|solutionrelative:tests\\keyence.hostlink.tests.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HostLinkClient.cs",
+              "DocumentMoniker": "E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\src\\Keyence.HostLink\\HostLinkClient.cs",
+              "RelativeDocumentMoniker": "src\\Keyence.HostLink\\HostLinkClient.cs",
+              "ToolTip": "E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\src\\Keyence.HostLink\\HostLinkClient.cs",
+              "RelativeToolTip": "src\\Keyence.HostLink\\HostLinkClient.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T01:47:51.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\tests\\Keyence.HostLink.Tests.Net8.WinForms\\MainForm.cs",
+              "RelativeDocumentMoniker": "tests\\Keyence.HostLink.Tests.Net8.WinForms\\MainForm.cs",
+              "ToolTip": "E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\tests\\Keyence.HostLink.Tests.Net8.WinForms\\MainForm.cs [Design]",
+              "RelativeToolTip": "tests\\Keyence.HostLink.Tests.Net8.WinForms\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T01:47:51.956Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\tests\\Keyence.HostLink.Tests.Net8.WinForms\\MainForm.cs",
+              "RelativeDocumentMoniker": "tests\\Keyence.HostLink.Tests.Net8.WinForms\\MainForm.cs",
+              "ToolTip": "E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\tests\\Keyence.HostLink.Tests.Net8.WinForms\\MainForm.cs",
+              "RelativeToolTip": "tests\\Keyence.HostLink.Tests.Net8.WinForms\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T01:47:51.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\tests\\Keyence.HostLink.Tests.WinForms\\MainForm.cs",
+              "RelativeDocumentMoniker": "tests\\Keyence.HostLink.Tests.WinForms\\MainForm.cs",
+              "ToolTip": "E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\tests\\Keyence.HostLink.Tests.WinForms\\MainForm.cs [Design]",
+              "RelativeToolTip": "tests\\Keyence.HostLink.Tests.WinForms\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T01:47:51.97Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\tests\\Keyence.HostLink.Tests.WinForms\\MainForm.cs",
+              "RelativeDocumentMoniker": "tests\\Keyence.HostLink.Tests.WinForms\\MainForm.cs",
+              "ToolTip": "E:\\\u5DE5\u5177\\Keyence\\net-keyence-hostlink\\tests\\Keyence.HostLink.Tests.WinForms\\MainForm.cs",
+              "RelativeToolTip": "tests\\Keyence.HostLink.Tests.WinForms\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T01:47:51.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 158,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ============================================================ -->
+<!-- NuGet Version Configuration                                   -->
+<!-- Change versions here, then run: .\pack.ps1                    -->
+<!-- ============================================================ -->
+<Project>
+  <PropertyGroup>
+    <!-- Stable version (even number) - conservative, production-ready -->
+    <StableVersion>1.0.0</StableVersion>
+
+    <!-- Enhanced version (odd number) - latest features, .NET 6+ optimized -->
+    <EnhancedVersion>1.1.0</EnhancedVersion>
+
+    <PackageId>Keyence.HostLink</PackageId>
+    <Authors>nan.lin</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/looklin/net-keyence-hostlink</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/looklin/net-keyence-hostlink</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>keyence;plc;hostlink;industrial;automation;tcp;serial</PackageTags>
+  </PropertyGroup>
+</Project>

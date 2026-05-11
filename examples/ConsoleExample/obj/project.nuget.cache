@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cuYF+hFQKQw=",
+  "success": true,
+  "projectFilePath": "E:\\工具\\Keyence\\net-keyence-hostlink\\examples\\ConsoleExample\\Keyence.HostLink.ConsoleExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nan.lin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\bin\Debug\netstandard2.0\Keyence.HostLink.Serial.deps.json
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\bin\Debug\netstandard2.0\Keyence.HostLink.Serial.dll
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\bin\Debug\netstandard2.0\Keyence.HostLink.Serial.pdb
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\bin\Debug\netstandard2.0\Keyence.HostLink.dll
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\bin\Debug\netstandard2.0\Keyence.HostLink.pdb
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\obj\Debug\netstandard2.0\Keyence.HostLink.Serial.csproj.AssemblyReference.cache
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\obj\Debug\netstandard2.0\Keyence.HostLink.Serial.GeneratedMSBuildEditorConfig.editorconfig
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\obj\Debug\netstandard2.0\Keyence.HostLink.Serial.AssemblyInfoInputs.cache
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\obj\Debug\netstandard2.0\Keyence.HostLink.Serial.AssemblyInfo.cs
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\obj\Debug\netstandard2.0\Keyence.HostLink.Serial.csproj.CoreCompileInputs.cache
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\obj\Debug\netstandard2.0\Keyence..E7F7DB5C.Up2Date
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\obj\Debug\netstandard2.0\Keyence.HostLink.Serial.dll
+E:\工具\Keyence\net-keyence-hostlink\src\Keyence.HostLink.Serial\obj\Debug\netstandard2.0\Keyence.HostLink.Serial.pdb

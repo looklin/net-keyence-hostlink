@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cH2Spz6zil4=",
+  "success": true,
+  "projectFilePath": "E:\\工具\\Keyence\\net-keyence-hostlink\\tests\\Keyence.HostLink.Tests.WinForms\\Keyence.HostLink.Tests.WinForms.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nan.lin\\.nuget\\packages\\microsoft.bcl\\1.1.8\\microsoft.bcl.1.1.8.nupkg.sha512",
+    "C:\\Users\\nan.lin\\.nuget\\packages\\microsoft.bcl.async\\1.0.168\\microsoft.bcl.async.1.0.168.nupkg.sha512",
+    "C:\\Users\\nan.lin\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
