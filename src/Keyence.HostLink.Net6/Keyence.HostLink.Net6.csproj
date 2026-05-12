@@ -18,6 +18,7 @@
     <RepositoryUrl>https://github.com/looklin/net-keyence-hostlink</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>keyence;plc;hostlink;industrial;automation;performance;span;arraypool</PackageTags>
+    <PackageOwners>Lenton</PackageOwners>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>

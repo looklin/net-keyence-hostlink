@@ -5,6 +5,10 @@ on:
     tags:
       - 'v*'
 
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -42,5 +46,10 @@ jobs:
             /p:PackageReleaseNotes="Enhanced release $VERSION with .NET 6+ optimizations" \
             --no-build -o ./nupkgs
 
-      - name: Push to NuGet
-        run: dotnet nuget push "./nupkgs/*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json --skip-duplicate
+      - name: Get OIDC Token for NuGet
+        id: auth
+        run: |
+          echo "TOKEN=$(curl -s -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \"$ACTIONS_ID_TOKEN_REQUEST_URL&audience=nugget.org\" | jq -r '.value')" >> $GITHUB_OUTPUT
+
+      - name: Push to NuGet (Trusted Publishing)
+        run: dotnet nuget push "./nupkgs/*.nupkg" -k ${{ steps.auth.outputs.TOKEN }} -s https://api.nuget.org/v3/index.json --skip-duplicate
