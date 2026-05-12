@@ -1,0 +1,46 @@
+name: Publish to NuGet
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore Keyence.HostLink.sln
+
+      - name: Build
+        run: dotnet build Keyence.HostLink.sln -c Release --no-restore
+
+      - name: Pack (Stable)
+        run: |
+          VERSION=${GITHUB_REF_NAME#v}
+          dotnet pack src/Keyence.HostLink/Keyence.HostLink.csproj -c Release \
+            /p:PackageVersion=$VERSION \
+            /p:Version=$VERSION \
+            /p:PackageReleaseNotes="Release $VERSION" \
+            --no-build -o ./nupkgs
+
+      - name: Pack (Enhanced .NET 6+)
+        run: |
+          VERSION=${GITHUB_REF_NAME#v}
+          dotnet pack src/Keyence.HostLink.Net6/Keyence.HostLink.Net6.csproj -c Release \
+            /p:PackageVersion=$VERSION \
+            /p:Version=$VERSION \
+            /p:PackageReleaseNotes="Enhanced release $VERSION with .NET 6+ optimizations" \
+            --no-build -o ./nupkgs
+
+      - name: Push to NuGet
+        run: dotnet nuget push "./nupkgs/*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json --skip-duplicate
