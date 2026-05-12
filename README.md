@@ -159,7 +159,7 @@ dotnet run
 
 ## 参考资料
 
-- [node-keyence-hostlink](https://github.com/chnbohwr/keyence-hostlink) - 原始 Node.js 实现
+- [node-keyence-hostlink](https://github.com/looklin/keyence-hostlink) - 原始 Node.js 实现
 - [Keyence KV Series Manuals](https://www.keyence.com/support/user/controls/plc/manual/) - 官方协议文档
 
 ## License
