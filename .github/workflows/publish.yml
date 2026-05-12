@@ -1,4 +1,4 @@
-name: Publish pre-built NuGet packages
+name: Publish pre-built NuGet packages from nupkgs folder
 
 on:
   push:
@@ -22,15 +22,8 @@ jobs:
         with:
           dotnet-version: '8.0.x'   # 任意可用的 SDK 版本即可
 
-      - name: Create output directory
-        run: mkdir -p ./nupkgs
-
-      - name: Copy pre-built .nupkg files
-        run: |
-          # 假设这两个文件已经提交到仓库中（路径相对于仓库根目录）
-          cp ./src/Keyence.HostLink/bin/Release/Keyence.HostLink.1.0.0.nupkg ./nupkgs/
-          cp ./src/Keyence.HostLink/bin/Release/Keyence.HostLink.1.1.0.nupkg ./nupkgs/
-          ls -la ./nupkgs       # 可选，用于调试确认文件存在
+      - name: List nupkgs directory (optional, for debugging)
+        run: ls -la ./nupkgs/
 
       - name: Get temporary API key from NuGet.org
         uses: NuGet/login@v1
