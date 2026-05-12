@@ -1,56 +1,47 @@
-name: Publish to NuGet
+name: Publish pre-built NuGet packages
 
 on:
   push:
     tags:
-      - 'v*'
+      - 'v*'               # 推送 v1.0.0, v1.1.0 等标签时触发
 
 permissions:
   contents: read
-  id-token: write
+  id-token: write          # 必须，用于 OIDC 令牌获取临时 API Key
 
 jobs:
   publish:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup .NET
+      - name: Setup .NET (required for dotnet nuget push)
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: '8.0.x'   # 任意可用的 SDK 版本即可
 
-      - name: Restore dependencies
-        run: dotnet restore Keyence.HostLink.sln
+      - name: Create output directory
+        run: mkdir -p ./nupkgs
 
-      - name: Build
-        run: dotnet build Keyence.HostLink.sln -c Release --no-restore
-
-      - name: Pack (Stable)
+      - name: Copy pre-built .nupkg files
         run: |
-          VERSION=${GITHUB_REF_NAME#v}
-          dotnet pack src/Keyence.HostLink/Keyence.HostLink.csproj -c Release \
-            /p:PackageVersion=$VERSION \
-            /p:Version=$VERSION \
-            /p:PackageReleaseNotes="Release $VERSION" \
-            --no-build -o ./nupkgs
+          # 假设这两个文件已经提交到仓库中（路径相对于仓库根目录）
+          cp ./src/Keyence.HostLink/bin/Release/Keyence.HostLink.1.0.0.nupkg ./nupkgs/
+          cp ./src/Keyence.HostLink/bin/Release/Keyence.HostLink.1.1.0.nupkg ./nupkgs/
+          ls -la ./nupkgs       # 可选，用于调试确认文件存在
 
-      - name: Pack (Enhanced .NET 6+)
-        run: |
-          VERSION=${GITHUB_REF_NAME#v}
-          dotnet pack src/Keyence.HostLink.Net6/Keyence.HostLink.Net6.csproj -c Release \
-            /p:PackageVersion=$VERSION \
-            /p:Version=$VERSION \
-            /p:PackageReleaseNotes="Enhanced release $VERSION with .NET 6+ optimizations" \
-            --no-build -o ./nupkgs
-
-      - name: Get temporary API key from NuGet
+      - name: Get temporary API key from NuGet.org
         uses: NuGet/login@v1
         id: login
         with:
+          # 之前配置的 Secret，即您的 NuGet.org 用户名
           user: ${{ secrets.NUGET_USERNAME }}
 
-      - name: Push to NuGet
-        run: dotnet nuget push "./nupkgs/*.nupkg" --api-key ${{ steps.login.outputs.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
+      - name: Push packages to NuGet.org
+        run: |
+          dotnet nuget push "./nupkgs/*.nupkg" \
+            --api-key ${{ steps.login.outputs.NUGET_API_KEY }} \
+            --source https://api.nuget.org/v3/index.json \
+            --skip-duplicate
