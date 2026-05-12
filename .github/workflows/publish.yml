@@ -46,10 +46,11 @@ jobs:
             /p:PackageReleaseNotes="Enhanced release $VERSION with .NET 6+ optimizations" \
             --no-build -o ./nupkgs
 
-      - name: Get OIDC Token for NuGet
-        id: auth
-        run: |
-          echo "TOKEN=$(curl -s -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \"$ACTIONS_ID_TOKEN_REQUEST_URL&audience=nugget.org\" | jq -r '.value')" >> $GITHUB_OUTPUT
+      - name: Get temporary API key from NuGet
+        uses: NuGet/login@v1
+        id: login
+        with:
+          user: ${{ secrets.NUGET_USERNAME }}
 
-      - name: Push to NuGet (Trusted Publishing)
-        run: dotnet nuget push "./nupkgs/*.nupkg" -k ${{ steps.auth.outputs.TOKEN }} -s https://api.nuget.org/v3/index.json --skip-duplicate
+      - name: Push to NuGet
+        run: dotnet nuget push "./nupkgs/*.nupkg" --api-key ${{ steps.login.outputs.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
